@@ -1,0 +1,55 @@
+{
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "食在东林"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "食在东林"
+			}
+		}
+	    ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/menu/menu",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "食在东林",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar":{
+	        "color":"#333",
+	        "selectedColor":"deepskyblue",
+	        "backgroundColor":"#eee",
+	        "borderStyle":"black",
+	        "list":[
+	            {
+	                "pagePath":"pages/index/index",
+	                "text":"首页",
+	                "iconPath":"./static/index.png",
+	                "selectedIconPath":"static/indexed.png"
+	            },
+	            {
+	                "pagePath":"pages/menu/menu",
+	                "text":"点餐",
+	                "iconPath":"static/menu.png",
+	                "selectedIconPath":"static/menued.png"
+	            },
+	            {
+	                "pagePath":"pages/my/my",
+	                "text":"我的",
+	                "iconPath":"static/user.png",
+	                "selectedIconPath":"static/usered.png"
+	            }
+	        ]
+	    }
+}
